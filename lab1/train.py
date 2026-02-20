@@ -32,7 +32,7 @@ history = model.fit(
 
 model.save("ffnn_model.keras")
 
-# 🔥 сохраняем классы
+
 with open("class_names.json", "w") as f:
     json.dump(class_names, f)
 
