@@ -2,7 +2,20 @@ import json
 from model import create_model
 from utils import load_datasets
 
-DATASET_PATH = "dataset"
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+DATASET_PATH = os.path.join(
+    BASE_DIR,
+    "dataset",
+    "archive",
+    "raw-img"
+)
+
+print("ABS DATASET PATH:", DATASET_PATH)
+print("ABS EXISTS:", os.path.exists(DATASET_PATH))
+
 EPOCHS = 10
 
 train_ds, val_ds, class_names = load_datasets(DATASET_PATH)

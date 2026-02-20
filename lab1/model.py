@@ -15,7 +15,7 @@ def create_model(input_shape, num_classes):
 
     model.compile(
         optimizer=Adam(learning_rate=0.001),
-        loss='categorical_crossentropy',
+        loss='sparse_categorical_crossentropy',
         metrics=['accuracy']
     )
 
