@@ -12,11 +12,10 @@ Machine Learning Lab Works
 
 Структура репозитория
 
-Machine_learning_lab_works/
-│
-├── lab1/   # Feed-Forward Neural Network (MLP)
-├── lab2/   # K-Means Clustering
-├── lab3/   # Hopfield Network (Associative Memory)
+- Machine_learning_lab_works/
+  - lab1/   # Feed-Forward Neural Network (MLP)
+  - lab2/   # K-Means Clustering
+  - lab3/   # Hopfield Network (Associative Memory)
 
 
 Лабораторная работа 1
@@ -28,7 +27,7 @@ Feed-Forward нейронные сети (MLP)
 Реализация многослойного персептрона для классификации изображений.
 
 
-спользуемые технологии
+Используемые технологии
 	•	Python
 	•	TensorFlow / Keras
 	•	NumPy
@@ -36,13 +35,12 @@ Feed-Forward нейронные сети (MLP)
 
 Структура
 
-lab1/
-│
-├── dataset/              # изображения, разбитые по классам
-├── model.py              # архитектура сети
-├── utils.py              # загрузка данных
-├── train.py              # обучение модели
-├── predict.py            # распознавание изображения
+- lab1/
+  - dataset/              # изображения, разбитые по классам
+  - model.py              # архитектура сети
+  - utils.py              # загрузка данных
+  - train.py              # обучение модели
+  - predict.py            # распознавание изображения
 
 
 
@@ -96,15 +94,13 @@ python predict.py
 
 Структура
 
-lab2/
-│
-├── data/
-│   └── dataset.csv       # таблица признаков
-│
-├── kmeans_model.py       # модель K-Means
-├── utils.py              # загрузка данных
-├── train.py              # обучение
-├── predict.py            # определение кластера
+- lab2/
+  - data/
+    - dataset.csv       # таблица признаков
+  - kmeans_model.py       # модель K-Means
+  - utils.py              # загрузка данных
+  - train.py              # обучение
+  - predict.py            # определение кластера
 
 
 
@@ -169,15 +165,13 @@ python predict.py
 
 Структура
 
-lab3/
-│
-├── data/
-│   └── patterns.py       # эталонные изображения
-│
-├── hopfield.py           # сеть Хопфилда
-├── utils.py              # шум и визуализация
-├── train.py              # обучение
-├── predict.py            # восстановление образа
+- lab3/
+  -  data/
+    - patterns.py       # эталонные изображения
+  - hopfield.py           # сеть Хопфилда
+  - utils.py              # шум и визуализация
+  - train.py              # обучение
+  - predict.py            # восстановление образа
 
 
 
